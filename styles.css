@@ -14,7 +14,7 @@ body {
     background-color: #1F2937;
 }
 
-.header-links, .hero-desc {
+.header-links, .hero-desc, .footer {
     color: #E5E7EB;
     font-size: 18px;
 }
