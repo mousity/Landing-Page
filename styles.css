@@ -2,12 +2,14 @@ body {
     display: flex;
     flex-direction: column;
     font-family: 'Roboto';
+    margin: 0;
 }
 
 .top-box {
     display: flex;
     flex-direction: column;
     color: #F9FAF8;
+    padding: 0% 5% 5% 5%;
 }
 
 .top-box, .footer {
@@ -19,8 +21,16 @@ body {
     font-size: 18px;
 }
 
-.header {
+.header-links {
+    display: flex;
+    gap: 20px;
+}
+
+.header, .header-logo {
     font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .hero-title {
@@ -36,4 +46,10 @@ body {
     font-size: 36px;
     color: #1F2937;
     font-weight: 300;
+}
+
+.image-list-title {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
 }
