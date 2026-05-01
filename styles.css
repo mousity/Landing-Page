@@ -53,3 +53,13 @@ body {
     color: #1F2937;
     font-weight: 900;
 }
+
+.sign-up {
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border: none;
+    border-radius: 5%;
+    width: 5%;
+    height:auto;
+    padding: 10px;
+}
