@@ -97,3 +97,9 @@ body {
     height:auto;
     padding: 10px;
 }
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+}
