@@ -9,7 +9,7 @@ body {
     display: flex;
     flex-direction: column;
     color: #F9FAF8;
-    padding: 0% 5% 5% 5%;
+    padding: 0% 10% 5% 10%;
 }
 
 .top-box, .footer {
@@ -33,13 +33,25 @@ body {
     align-items: center;
 }
 
+.hero {
+    display: flex;
+
+}
+
 .hero-title {
     font-size: 48px;
     font-weight: 900;
 }
 
+.hero-image {
+    background-color: #3882F6;
+    width: 30%;
+    height: auto;
+}
+
 .quote-box {
     background-color: #E5E7EB;
+    padding: 5%;
 }
 
 .quote {
@@ -59,7 +71,7 @@ body {
     background-color: #3882F6;
     border: none;
     border-radius: 5%;
-    width: 5%;
+    width: 10%;
     height:auto;
     padding: 10px;
 }
