@@ -49,6 +49,28 @@ body {
     height: auto;
 }
 
+.image-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.images {
+    display: flex;
+}
+
+.image-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.info-image {
+    background-color: #3882F6;
+    width: 200px;
+    height: 200px;
+}
+
 .quote-box {
     background-color: #E5E7EB;
     padding: 5%;
