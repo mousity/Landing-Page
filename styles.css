@@ -112,6 +112,26 @@ body {
     padding: 10px;
 }
 
+.sign-up-box .sign-up {
+    border: 3px solid #E5E7EB;
+    border-color: #E5E7EB;
+    border-radius: .5em;
+    background-color: #3882F6;
+    width: 10%;
+    height: 20%;
+}
+
+.sign-up-box {
+    color: #E5E7EB;
+    background-color: #3882F6;
+    border-radius: .5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5% 15%;
+    padding: 1% 5%;
+}
+
 .footer {
     display: flex;
     justify-content: center;
